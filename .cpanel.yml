@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/livedealsco/public_html/
+    - export DEPLOYPATH=/home/livedealsco/public_html/connect-cpanel/
     - /bin/cp * $DEPLOYPATH
