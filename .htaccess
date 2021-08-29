@@ -22,3 +22,6 @@
 <IfModule pagespeed_module>
     ModPagespeed off
 </IfModule>
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
